@@ -1,0 +1,9 @@
+1. What is the output of the following code and explain why: 
+$a = '1';
+$b = &$a;
+$b = "2$b";
+echo $a.", ".$b;
+
+Ans: 21, 21 
+Why?
+Because a and b pointing a same memory location.
